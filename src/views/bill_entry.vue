@@ -73,10 +73,10 @@
        </v-flex>
 
                   <v-card  class=" py-2" >
-                       <v-layout class=" my-2 mr-sm-0 mr-5" justify-sm-center justify-end wrap sm-nowrap>
+                       <v-layout class=" my-2  mr-5 " justify-end wrap sm-nowrap>
                               <!-- <v-flex class=""> -->
-                                 <v-flex lg2 xs4>
-                                <v-btn class=" mt-4 ma-3 text-caption"
+                                 <v-flex md1 xs4 class="mr-sm-8">
+                                <v-btn class=" mt-4 ma-3  text-caption"
                                width="100"
                                color="primary"
                                outlined
@@ -87,7 +87,7 @@
                                </v-btn>
                                </v-flex>
 
-                               <v-flex lg2 xs4 class=''>
+                               <v-flex md1 xs4 class='mr-sm-3'>
                                 <v-btn class=" mt-4 ma-3 text-caption"
                                 color="primary"
                                 outlined
@@ -97,16 +97,17 @@
                                 SAVE
                                </v-btn>
                                </v-flex>
-
+                               </v-layout>
+                              <v-layout>
                                <v-flex lg6 xs12 class="d-flex  justify-space-around px-5 mt-5 mb-2 align-center">
                                 <div class="d-sm-flex">
-                                  <h5 class='font-weight-medium d-flex mx-sm-4'>BILL_NO:<p class="text-caption">{{ bill }}</p> </h5>
-                                <h5 class='font-weight-medium d-flex'>DATE: <p class="text-caption">{{ date }}</p> </h5>
+                                  <h5 class='font-weight-medium d-flex mx-sm-4 text-caption '>BILL_NO:<p class="text-caption">{{ bill }}</p> </h5>
+                                <h5 class='font-weight-medium d-flex text-caption'>DATE: <p class="text-caption mx-1">{{ date }}</p> </h5>
                                 </div>
                                <div  class="d-sm-flex">
-                                 <h5 class='font-weight-medium d-flex  mx-sm-8'>TOTAL:<p class="text-caption">{{ total }}</p> </h5>
-                                <h5 class='font-weight-medium d-flex'>GST:<p class="text-caption">{{ gst.toFixed(2) }}</p> </h5>
-                                <h5 class='font-weight-medium d-flex  mx-sm-8'>Net_Payable:<p class="text-caption">{{ n_p }}</p> </h5>
+                                 <h5 class='font-weight-medium d-flex  mx-sm-8 text-caption'>TOTAL:<p class="text-caption mx-1">{{ total }}</p> </h5>
+                                <h5 class='font-weight-medium d-flex text-caption'>GST:<p class="text-caption mx-1">{{ gst.toFixed(2) }}</p> </h5>
+                                <h5 class='font-weight-medium d-flex text-caption mx-sm-8'>Net_Payable:<p class="text-caption mx-1">{{ n_p }}</p> </h5>
                                </div>
                                </v-flex>
                               <!-- </v-flex> -->

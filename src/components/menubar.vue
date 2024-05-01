@@ -46,22 +46,22 @@
     <v-tab to="/" class="white--text mx-2 font-weight-black" v-show="DASH_flag">
       Dashboard
     </v-tab>
-    <v-tab to="/s_view" class="mx-2 font-weight-black white--text white--text"  v-show="SV_flag">
+    <v-tab to="/s_view" class="mx-2 font-weight-black white--text text-no-wrap"  v-show="SV_flag">
       Stock View
     </v-tab>
-    <v-tab to="/stent" class="mx-2 font-weight-black  white--text" v-show="SE_flag">
+    <v-tab to="/stent" class="mx-2 font-weight-black  white--text text-no-wrap" v-show="SE_flag">
       Stock Entry
     </v-tab>
-    <v-tab to="/bill" class="mx-2 font-weight-black white--text" v-show="BILL_flag">
+    <v-tab to="/bill" class="mx-2 font-weight-black white--text text-no-wrap" v-show="BILL_flag">
       Bill Entry
     </v-tab>
-    <v-tab to="/sales" class="mx-2 font-weight-black white--text " v-show="SALREP_flag">
+    <v-tab to="/sales" class="mx-2 font-weight-black white--text text-no-wrap" v-show="SALREP_flag">
      Sales Report
     </v-tab>
-    <v-tab to="/add" class="mx-2 font-weight-black white--text" v-show="ADUSER_flag">
+    <v-tab to="/add" class="mx-2 font-weight-black white--text text-no-wrap" v-show="ADUSER_flag">
       Add User
     </v-tab>
-    <v-tab to="/loghis" class="mx-2 font-weight-black white--text" v-show="LOG_flag">
+    <v-tab to="/loghis" class="mx-2 font-weight-black white--text text-no-wrap" v-show="LOG_flag">
       Login History
     </v-tab>
   </v-tabs>

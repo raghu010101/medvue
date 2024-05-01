@@ -141,7 +141,7 @@ export default {
 
              this.$store.commit("set_log", this.log)
             this.$store.state.User=this.use
-              alert('welcome')
+              // alert('welcome')
       // this.$router.push('/dashboard')
       // this.$router.replace('/dashboard')
 

@@ -12,7 +12,7 @@
             <h2 class="red--text">Today Sale Trend</h2><br>
 
             <h3 class="d-flex justify-center "><span>There is no sale for today</span></h3> <br> 
-            <img  class="mb-5" src="../assets/cats-558077_640.jpg" >
+            <img  class="mb-5" src="../assets/cats-558077_640.png" >
           </div>
          </v-card>
         </v-flex>

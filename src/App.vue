@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-card class="transparent img" elevation="0" >
+    <v-card class="transparent img overflow-y-auto" height="100vh" elevation="0" >
 
       <div>
         

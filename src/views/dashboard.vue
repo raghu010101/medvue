@@ -124,7 +124,7 @@
 
 
        if (this.$store.state.User.role=='Biller') {
-              alert(this.$store.state.User.role)
+              // alert(this.$store.state.User.role)
        for (let i = 0; i < this.$store.state.Bill_Master.length; i++) {
         // console.log(this.$store.state.Bill_Master[i].user_id+"=="+this.name)
         // console.log(dates+'=='+this.$store.state.Bill_Master[i].bill_date)
