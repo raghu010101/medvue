@@ -139,6 +139,6 @@ export default {
   /* background-size: contain; */
 }
 
-</style>>
+</style>
 
 // </style>
